@@ -10,9 +10,7 @@ public class hW3 {
     public static void main(String[] args) {
         Scanner myScanner = new Scanner(System.in);
         String[] words = {"apple", "orange", "lemon", "banana", "apricot", "avocado", "broccoli", "carrot", "cherry", "garlic", "grape", "melon", "leak", "kiwi", "mango", "mushroom", "nut", "olive", "pea", "peanut", "pear", "pepper", "pineapple", "pumpkin", "potato"};
-        //Zagadivaem slovo
         String selectedWord = words[(int)Math.floor(Math.random()*words.length)];
-        //System.out.println(selectedWord); //Spoiler dlia proverki
         System.out.println("You have to guess a word! It maybe one of the following:");
         System.out.println(Arrays.toString(words));
         String myGuess;
